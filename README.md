@@ -1,7 +1,8 @@
 [README.md](https://github.com/user-attachments/files/28430475/README.md)
+
 # Cyber Defense XDR Platform v1.0
 
-Developer: Joaquin Rodriguez 
+Developer: Joaquin Rodriguez
 GitHub: https://github.com/joaquin-developer-gif/
 
 > **English version first. Versión en español más abajo.**
@@ -562,35 +563,31 @@ This demonstrated safe device identification in a controlled local lab environme
 
 ## Screenshots
 
-Recommended screenshots to add:
+This section shows the main visual modules of the Cyber Defense XDR Platform, captured from a controlled local lab environment. The screenshots demonstrate real-time telemetry, threat detection, alert management, firewall-based IP blocking and automated response history.```txt
 
-```txt
-screenshots/dashboard.png
-screenshots/threat-feed.png
-screenshots/alerts.png
-screenshots/blocked-ips.png
-screenshots/auto-response.png
-```
+# 1. Main SOC/XDR Dashboard
 
-Example Markdown:
+Main monitoring dashboard showing the global status of the platform, WebSocket connectivity, backend health, active threat state and SOC/XDR security metrics.
 
-```md
-### Dashboard
+# 2. Live Threat Feed
 
-![Dashboard](screenshots/dashboard.png)
+Real-time threat telemetry stream displaying detected security events, severity levels, source IPs, destination data and threat scores.
 
-### Live Threat Feed
+# 3. XDR Alert Center
 
-![Threat Feed](screenshots/threat-feed.png)
+Alert management center used to review suspicious activity such as brute force attempts, threat intelligence detections and high-severity events. The interface includes investigation, manual blocking and resolution actions.
 
-### Blocked IPs
+# 4. Blocked IPs Management
 
-![Blocked IPs](screenshots/blocked-ips.png)
+Blocked IP management panel connected to the backend response engine and Linux iptables. It displays currently blocked addresses, blocking reasons, timestamps, firewall status and manual unblock actions.
 
-### Auto Response Engine
+# 5. Auto Response Engine
 
-![Auto Response](screenshots/auto-response.png)
-```
+Automated response history showing actions performed by the XDR response engine, including blocked IPs, unblocked IPs, rejected actions and monitoring events.
+
+# Note:
+
+All screenshots were generated in a controlled local environment for educational, testing and portfolio purposes.
 
 ---
 
@@ -676,8 +673,6 @@ This project was built for defensive cybersecurity learning and portfolio purpos
 Do not use this tool against third-party networks, public systems, or devices without explicit authorization.
 
 ---
-Desarrollador: Joaquin Rodriguez 
-GitHub: https://github.com/joaquin-developer-gif/
 
 # 🇪🇸 Español
 
@@ -1233,35 +1228,31 @@ Esto demostró identificación segura de dispositivos dentro de un entorno local
 
 ## Capturas de pantalla
 
-Capturas recomendadas para agregar:
+Esta sección muestra los módulos visuales principales de la Cyber Defense XDR Platform, capturados desde un entorno local controlado de laboratorio. Las capturas demuestran telemetría en tiempo real, detección de amenazas, gestión de alertas, bloqueo de IPs mediante firewall e historial de respuesta automática.
 
-```txt
-screenshots/dashboard.png
-screenshots/threat-feed.png
-screenshots/alerts.png
-screenshots/blocked-ips.png
-screenshots/auto-response.png
-```
+# 1. Dashboard principal SOC/XDR
 
-Ejemplo en Markdown:
+Dashboard principal de monitoreo que muestra el estado general de la plataforma, conectividad WebSocket, salud del backend, estado de amenazas activas y métricas de seguridad SOC/XDR.
 
-```md
-### Dashboard
+# 2. Feed de amenazas en vivo
 
-![Dashboard](screenshots/dashboard.png)
+Flujo de telemetría de amenazas en tiempo real que muestra eventos de seguridad detectados, niveles de severidad, IPs de origen, datos de destino y puntajes de amenaza.
 
-### Live Threat Feed
+# 3. Centro de alertas XDR
 
-![Threat Feed](screenshots/threat-feed.png)
+Centro de gestión de alertas utilizado para revisar actividad sospechosa como intentos de fuerza bruta, detecciones de inteligencia de amenazas y eventos de alta severidad. La interfaz incluye acciones de investigación, bloqueo manual y resolución.
 
-### Blocked IPs
+# 4. Gestión de IPs bloqueadas
 
-![Blocked IPs](screenshots/blocked-ips.png)
+Panel de gestión de IPs bloqueadas conectado al motor de respuesta del backend y a iptables en Linux. Muestra direcciones actualmente bloqueadas, motivos del bloqueo, fechas, estado del firewall y acciones manuales de desbloqueo.
 
-### Auto Response Engine
+# 5. Motor de respuesta automática
 
-![Auto Response](screenshots/auto-response.png)
-```
+Historial de respuesta automática que muestra acciones realizadas por el motor de respuesta XDR, incluyendo IPs bloqueadas, IPs desbloqueadas, acciones rechazadas y eventos de monitoreo.
+
+# Nota:
+
+Todas las capturas fueron generadas en un entorno local controlado con fines educativos, de prueba y de portfolio.
 
 ---
 
